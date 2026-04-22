@@ -1,0 +1,29 @@
+{
+  "name": "clyde",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "setup-vector-store": "tsx scripts/setup-vector-store.ts",
+    "check": "npx tsc",
+    "start": "tsx app.ts",
+    "lint": "npx @biomejs/biome check .",
+    "lint:fix": "npx @biomejs/biome check --write .",
+    "test": "node --import tsx --test 'tests/**/*.test.ts'"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.8.3",
+    "@slack/bolt": "^4.7.0",
+    "adm-zip": "^0.5.17",
+    "dotenv": "~17.4.2",
+    "openai": "^6.34.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.12",
+    "@slack/cli-hooks": "^1.3.2",
+    "@types/adm-zip": "^0.5.8",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
