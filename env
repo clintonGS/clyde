@@ -1,0 +1,18 @@
+# Required, set your OpenAI API key.
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+
+# Required, generated after running `npm run setup-vector-store`
+OPENAI_VECTOR_STORE_ID=YOUR_VECTOR_STORE_ID
+
+# Optional, uncomment and set when running without the Slack CLI (npm start).
+SLACK_APP_TOKEN=xapp-1-A0AV81RLEKE-10988758446694-0bd5462ca6b49b416d6caa48f9fa810d56183beb1524955ed57ee071d473ef04
+SLACK_BOT_TOKEN=xoxb-3335695081555-10987373831429-eXV9OW1J29eujvu6gLfylFMq
+
+# Optional, uncomment and set for OAuth mode (node app-oauth.js).
+# SLACK_CLIENT_ID=YOUR_SLACK_CLIENT_ID
+# SLACK_CLIENT_SECRET=YOUR_SLACK_CLIENT_SECRET
+# SLACK_SIGNING_SECRET=YOUR_SLACK_SIGNING_SECRET
+# SLACK_REDIRECT_URI=https://YOUR_NGROK_SUBDOMAIN.ngrok-free.app/slack/oauth_redirect
+
+# Optional, uncomment and set when using a custom Slack instance.
+# SLACK_API_URL=YOUR_SLACK_API_URL
